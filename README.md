@@ -111,6 +111,7 @@ const incidentCortex = {
 
 ## 🎯 What I Do Best
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#3b82f6','primaryTextColor':'#fff','primaryBorderColor':'#1e40af','lineColor':'#60a5fa','secondaryColor':'#8b5cf6','tertiaryColor':'#ec4899','background':'#1a1b27','mainBkg':'#3b82f6','secondBkg':'#8b5cf6','tertiaryBkg':'#ec4899'}}}%%
 mindmap
   root((Meriç Karpat))
     SaaS Architecture
@@ -196,7 +197,7 @@ mindmap
 [![Location](https://img.shields.io/badge/Location-Izmir%2C%20Turkey-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Izmir)
 
 ### Open to:
-🤝 Technical co-founders for AI/SaaS projects  
+🤝 Technical co-founders or advisors for AI/SaaS projects  
 💼 Contract work on complex backend systems  
 🎙️ Speaking about SaaS architecture & AI integration  
 ☕ Coffee chats about startup ideas
