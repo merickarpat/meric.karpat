@@ -19,7 +19,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="left">
   
 ```typescript
 const dashpilot = {
@@ -35,6 +35,15 @@ const dashpilot = {
   status: "Private Beta → 50+ active users"
 }
 ```
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top" align="right">
+  
 **What makes it special:**
 A full commercial analytics platform for Amazon sellers:
 
@@ -67,7 +76,7 @@ flowchart TB
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="left">
 
 ```typescript
 const incidentCortex = {
@@ -83,6 +92,13 @@ const incidentCortex = {
   status: "Production-ready backend"
 }
 ```
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top" align="right">
 - An AI-first backend built to reduce MTTR by giving engineers instant answers:
 - Semantic search over runbooks (pgvector)
 - Automatic embedding pipeline
