@@ -182,8 +182,8 @@ mindmap
 </p>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=merickarpat&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=merickarpat&layout=compact&theme=react&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats-phi-two.vercel.app/api?username=merickarpat&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats-phi-two.vercel.app/api/top-langs/?username=merickarpat&layout=compact&theme=react&hide_border=true" />
 </p>
 
 ---
