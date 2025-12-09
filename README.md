@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&width=600&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
 
 <!-- INTRO -->
 <p align="center"> 
