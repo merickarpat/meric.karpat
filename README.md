@@ -65,7 +65,7 @@ flowchart TB
 
 ## 🧠 Tech Arsenal
 <p align="left"> 
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,nodejs,react,postgres,redis,docker,prisma,git,vercel" /> 
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,express,nodejs,react,postgres,redis,docker,prisma,git,vercel" /> 
 </p>
 
 ### Strong Focus Areas
@@ -86,8 +86,8 @@ flowchart TB
 | 🚀 **SaaS Products Built** | 2 (in production) |
 | 🤖 **AI Models Integrated** | OpenAI GPT-4, Embeddings, Custom ML |
 | ⚡ **API Response Time** | <200ms (p95) |
-| 💾 **Data Processed** | 10M+ product records |
-| 👥 **Active Users** | 50+ (and growing) |
+| 💾 **Data Processed** | 5M+ product records |
+| 👥 **Active Private Beta Users** | 35+ (and growing) |
 
 </div>
 
@@ -134,7 +134,7 @@ flowchart TB
 
 <div align="center">
 
-##"Ship fast, iterate faster, never stop learning."##
+## "Ship fast, iterate faster, never stop learning."
 
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
