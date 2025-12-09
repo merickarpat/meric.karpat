@@ -138,5 +138,6 @@ flowchart TB
 
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
-</div> <!-- FOOTER --> <img src="[https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:1a1b27&height=120&section=footer](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&reversal=false&textBg=false&fontAlign=50&strokeWidth=1&section=footer)" />
+</div> <!-- FOOTER --> 
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&reversal=false&textBg=false&fontAlign=50&strokeWidth=1&section=footer"/>
 
