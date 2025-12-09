@@ -32,9 +32,9 @@ const dashpilot = {
     "PostgreSQL + Prisma",
     "Redis (caching & workers)",
     "OpenAI + Custom ML models",
-    "Stripe + Multi-tenant SaaS"
+    "Payments + Multi-tenant SaaS"
   ],
-  status: "Private Beta → 50+ active users"
+  status: "Private Beta → 35+ active users"
 }
 ```
 
@@ -60,15 +60,22 @@ A full commercial analytics platform for Amazon sellers:
 
 ```mermaid
 flowchart TB
-  A[Keepa CSV / Excel Upload] --> B[Ingestion & Parsing]
-  B --> C[(PostgreSQL)]
-  C --> D[Job Queue / Workers]
-  D --> E[AI Engines - OpenAI and Ollama]
-  E --> F[Product Insights & Scores]
-  F --> G[Next.js Dashboard]
-  C --> H[Analytics and Reports]
+  upload[Keepa CSV / Excel Upload] --> ingest[Ingestion & Parsing]
+  ingest --> db[(PostgreSQL)]
+
+  db --> queue[Job Queue / Workers]
+  queue --> ai[AI Engines - OpenAI & Ollama]
+  ai --> insights[Product Insights & Scores]
+
+  insights --> db
+
+  db --> dashboard[Next.js Dashboard]
+  insights --> dashboard
+
+  db --> reports[Analytics & Reports]
 ```
-  
+---
+
 ### ⚡ Incident Cortex — AI-driven Incident & Runbook Automation
 <p> 
   <img src="https://img.shields.io/badge/Incident%20Cortex-AI%20Runbook%20Search-020617?style=for-the-badge&logo=slack&logoColor=36C5F0" /> 
@@ -113,14 +120,20 @@ An AI-first backend built to reduce MTTR by giving engineers instant answers:
 
 ```mermaid
 flowchart TB
-  A[Slack Events and Commands] --> B[Express API and Slack Controller]
-  B --> C[Runbook Service]
-  C --> D[(NeonDB with pgvector)]
-  C --> G[Background Workers]
-  G --> H[OpenAI Embeddings]
-  H --> D
-  D --> E[Semantic Search Service]
-  E --> F[Slack Response Message]
+  slack[Slack Events & Commands] --> api[Express API & Slack Controller]
+  api --> runbook[Runbook Service]
+
+  %% indexing path
+  runbook --> db[(NeonDB with pgvector)]
+  runbook --> workers[Background Workers]
+  workers --> embed[OpenAI Embeddings]
+  embed --> db
+
+  %% query path
+  api --> search[Semantic Search Service]
+  search --> db
+  db --> search
+  search --> response[Slack Response Message]
 ```
 
 ---
@@ -186,7 +199,7 @@ flowchart TB
 
 ### Open to:
 🤝 Technical co-founders for AI/SaaS projects    
-💼 Contract work or colloquia on complex backend systems  
+💼 Contract work or consulting on complex backend systems
 🎙️ Speaking about SaaS architecture & AI integration  
 ☕ Coffee chats about startup ideas
 
