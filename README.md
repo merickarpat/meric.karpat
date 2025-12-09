@@ -27,14 +27,14 @@ A full commercial analytics platform for Amazon sellers:
 
 #### DashPilot Architecture
 ```mermaid
-flowchart LR
+flowchart TB
   A[Keepa CSV / Excel Upload] --> B[Ingestion & Parsing]
   B --> C[(PostgreSQL)]
   C --> D[Job Queue / Workers]
-  D --> E[AI Engines (OpenAI & Ollama)]
+  D --> E[AI Engines - OpenAI and Ollama]
   E --> F[Product Insights & Scores]
   F --> G[Next.js Dashboard]
-  C --> H[Analytics & Reports]
+  C --> H[Analytics and Reports]
 ```
 
 ### ⚡ Incident Cortex — AI-driven Incident & Runbook Automation
@@ -50,7 +50,7 @@ flowchart LR
   
 #### Incident Cortex Architecture
 ```mermaid
-flowchart LR
+flowchart TB
   A[Slack Events and Commands] --> B[Express API and Slack Controller]
   B --> C[Runbook Service]
   C --> D[(NeonDB with pgvector)]
@@ -63,7 +63,7 @@ flowchart LR
 ```
 ---
 
-##🧠 Tech Stack & Expertise
+## 🧠 Tech Arsenal
 <p align="left"> 
   <img src="https://skillicons.dev/icons?i=ts,nextjs,nodejs,react,postgres,redis,docker,prisma,git,vercel" /> 
 </p>
@@ -74,6 +74,43 @@ flowchart LR
 - **AI & LLM integration (RAG, embeddings, semantic search)**
 - **SaaS platform design (auth, billing, usage metering)**
 - **PostgreSQL performance, schema design & migrations**
+
+---
+
+## 📊 Real Impact
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| 🚀 **SaaS Products Built** | 2 (in production) |
+| 🤖 **AI Models Integrated** | OpenAI GPT-4, Embeddings, Custom ML |
+| ⚡ **API Response Time** | <200ms (p95) |
+| 💾 **Data Processed** | 10M+ product records |
+| 👥 **Active Users** | 50+ (and growing) |
+
+</div>
+
+---
+
+## 🏗️ Architecture Philosophy
+
+> **"Build for scale from day one, optimize for developer experience always."**
+
+- **Type-safe everything** — TypeScript end-to-end, Zod validation, Prisma types
+- **AI-first thinking** — RAG > fine-tuning, semantic search > keyword matching
+- **Observability built-in** — OpenTelemetry, structured logging, error tracking
+- **Zero-downtime deploys** — CI/CD with automated testing, gradual rollouts
+- **Cost-conscious scaling** — Redis for hot data, PostgreSQL for everything else
+
+---
+
+## 💡 Side Interests
+
+- **Self-hosted LLMs** → Experimenting with Ollama for cost optimization
+- **Vector databases** → Building custom pgvector indexes for sub-second search
+- **Developer tools** → VSCode extensions, CLI tools, automation scripts
+- **SaaS pricing models** → Usage-based vs. subscription vs. hybrid strategies
 
 ---
 
