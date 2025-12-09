@@ -4,7 +4,7 @@
 <!-- INTRO -->
 <p align="center">
   <a href="https://github.com/merickarpat">
-    <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&pause=800&color=3B82F6&center=true&vCenter=true&width=650&lines=Full+Stack+JavaScript+Developer;SaaS+Founder;AI-powered+Platforms;DashPilot+%7C+Incident+Cortex" />
+    <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&pause=800&color=3B82F6&center=true&vCenter=true&width=650&lines=Full+Stack+JavaScript+Developer;SaaS+Founder;AI-powered+Platforms;DashPilot+%7C+Incident+Cortex" />
   </a>
 </p>
 
@@ -31,7 +31,7 @@ flowchart LR
   A[Keepa CSV / Excel Upload] --> B[Ingestion & Parsing]
   B --> C[(PostgreSQL)]
   C --> D[Job Queue / Workers]
-  D --> E[AI Engines\n(OpenAI / Abacus)]
+  D --> E[AI Engines (OpenAI & Abacus)]
   E --> F[Product Insights & Scores]
   F --> G[Next.js Dashboard]
   C --> H[Analytics & Reports]
@@ -51,14 +51,14 @@ flowchart LR
 #### Incident Cortex Architecture
 ```mermaid
 flowchart LR
-  A[Keepa CSV / Excel Upload] --> B[Ingestion & Parsing]
-  B --> C[(PostgreSQL)]
-  C --> D[Job Queue / Workers]
-  D --> E[AI Engines\n(OpenAI / Abacus)]
-  E --> F[Product Insights & Scores]
-  F --> G[Next.js Dashboard]
-  C --> H[Analytics & Reports]
-<p align="left"> <img src="https://skillicons.dev/icons?i=ts,nextjs,nodejs,react,postgres,redis,docker,prisma,git,vercel" /> </p>
+  A[Slack Events / Commands] --> B[Express API & Slack Controller]
+  B --> C[Runbook Service]
+  C --> D[(NeonDB + pgvector)]
+  C --> G[Background Workers]
+  G --> H[OpenAI Embeddings]
+  H --> D
+  D --> E[Semantic Search (Top-k results)]
+  E --> F[Slack Response]
 ```
 ---
 
@@ -93,19 +93,11 @@ flowchart LR
 
 ### Open to:
 🤝 Technical co-founders for AI/SaaS projects  
-💼 Contract work on complex backend systems  
+💼 Contract work  on complex backend systems  
 🎙️ Speaking about SaaS architecture & AI integration  
 ☕ Coffee chats about startup ideas
 
 </div>
-
----
-
-## 🏆 GitHub Profile Trophy
-
-<p align="center"> 
-  <img src="https://github-profile-trophy.vercel.app/?username=merickarpat&theme=dracula&column=6" />
-</p>
 
 ---
 
@@ -119,7 +111,7 @@ flowchart LR
 
 ### Open to:
 🤝 Technical co-founders for AI/SaaS projects  
-💼 Contract work on complex backend systems  
+💼 Contract work or colloquia on complex backend systems  
 🎙️ Speaking about SaaS architecture & AI integration  
 ☕ Coffee chats about startup ideas
 
@@ -129,7 +121,7 @@ flowchart LR
 
 <div align="center">
 
-**"Ship fast, iterate faster, never stop learning."**
+***"Ship fast, iterate faster, never stop learning."***
 
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
