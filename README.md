@@ -1,10 +1,10 @@
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:3b82f6&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Meriç%20Karpat&reversal=false&textBg=false&fontAlign=50&strokeWidth=1" />
 
 <!-- INTRO -->
 <p align="center">
   <a href="https://github.com/merickarpat">
-    <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&pause=800&color=3B82F6&center=true&vCenter=true&width=650&lines=Full+Stack+JavaScript+Developer;SaaS+Founder;AI-powered+Platforms;DashPilot+%7C+Incident+Cortex" />
+    <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&pause=800&color=#4900ff&center=true&vCenter=true&width=650&lines=Full+Stack+JavaScript+Developer;SaaS+Founder;AI-powered+Platforms;DashPilot+%7C+Incident+Cortex" />
   </a>
 </p>
 
@@ -138,4 +138,5 @@ flowchart TB
 
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
-</div> <!-- FOOTER --> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:1a1b27&height=120&section=footer" /> ```
+</div> <!-- FOOTER --> <img src="[https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:1a1b27&height=120&section=footer](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&reversal=false&textBg=false&fontAlign=50&strokeWidth=1&section=footer)" />
+
