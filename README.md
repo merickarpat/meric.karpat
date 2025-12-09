@@ -1,10 +1,10 @@
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00ffff:25bfff,4b7fff:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff" />
 
 <!-- INTRO -->
 <p align="center"> 
   <a href="https://github.com/merickarpat"> 
-    <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&pause=800&color=3B82F6&center=true&vCenter=true&width=650&lines=Full+Stack+JavaScript+Developer;SaaS+Founder;AI-powered+Platforms;DashPilot+%7C+Amazon+Analytics;Incident+Cortex+%7C+Incident+&+Runbook+Automation" /> 
+    <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=4000&pause=800&color=3B82F6&center=true&vCenter=true&width=650&lines=Full+Stack+JavaScript+Developer;SaaS+Founder;AI-powered+Platforms;DashPilot+%7C+Amazon+Analytics;Incident+Cortex+%7C+Incident+and+Runbook+Automation" /> 
   </a> 
 </p>
 
