@@ -20,9 +20,7 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### 🎯 DashPilot
-**AI-Powered Amazon Analytics Platform**
+  
 ```typescript
 const dashpilot = {
   problem: "Amazon sellers drowning in data",
@@ -37,7 +35,6 @@ const dashpilot = {
   status: "Private Beta → 50+ active users"
 }
 ```
-
 **What makes it special:**
 A full commercial analytics platform for Amazon sellers:
 
@@ -47,6 +44,8 @@ A full commercial analytics platform for Amazon sellers:
 - PostgreSQL · Prisma · Redis · BullMQ 
 - Designed for high-volume global use
 
+</td>
+  
 #### DashPilot Architecture
 ```mermaid
 flowchart TB
@@ -58,17 +57,37 @@ flowchart TB
   F --> G[Next.js Dashboard]
   C --> H[Analytics and Reports]
 ```
-
+  
 ### ⚡ Incident Cortex — AI-driven Incident & Runbook Automation
 <p> 
   <img src="https://img.shields.io/badge/Incident%20Cortex-AI%20Runbook%20Search-020617?style=for-the-badge&logo=slack&logoColor=36C5F0" /> 
 </p>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+```typescript
+const incidentCortex = {
+  problem: "Engineers wasting time searching docs",
+  solution: "Semantic search + Slack automation",
+  tech: [
+    "Express + TypeScript",
+    "NeonDB + pgvector",
+    "OpenAI Embeddings (RAG)",
+    "Slack API (events + commands)",
+    "Drizzle ORM"
+  ],
+  status: "Production-ready backend"
+}
+```
 - An AI-first backend built to reduce MTTR by giving engineers instant answers:
 - Semantic search over runbooks (pgvector)
 - Automatic embedding pipeline
 - Slack slash commands & interactive workflows
 - Express + TypeScript + Neon + Drizzle ORM
+
+</td>
   
 #### Incident Cortex Architecture
 ```mermaid
