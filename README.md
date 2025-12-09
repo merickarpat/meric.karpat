@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
 
 <!-- INTRO -->
 <p align="center"> 
@@ -14,15 +14,37 @@
 
 ### 🌐 DashPilot — AI-powered Amazon Analytics (SaaS)
 <p>
-  <img src="https://img.shields.io/badge/DashPilot-AI%20Amazon%20Analytics-0F172A?style=for-the-badge&logo=amazon&logoColor=F59E0B" />
+  <img src="https://img.shields.io/badge/DashPilot-AI%20Amazon%20Analytics-0F172A?style=for-the-badge&logo=amazon" />
 </p>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 DashPilot
+**AI-Powered Amazon Analytics Platform**
+```typescript
+const dashpilot = {
+  problem: "Amazon sellers drowning in data",
+  solution: "AI-driven insights + predictive scoring",
+  tech: [
+    "Next.js 14 (App Router)",
+    "PostgreSQL + Prisma",
+    "Redis (caching & workers)",
+    "OpenAI + Custom ML models",
+    "Stripe + Multi-tenant SaaS"
+  ],
+  status: "Private Beta → 50+ active users"
+}
+```
+
+**What makes it special:**
 A full commercial analytics platform for Amazon sellers:
 
 - Keepa CSV/Excel ingestion & transformation  
-- Token-based AI analysis (OpenAI / Abacus)  
+- Token-based AI analysis and product scoring (OpenAI / Claude / Ollama)  
 - Insight engine, predictive scoring & dashboards  
-- PostgreSQL · Prisma · Redis · Workers  
+- PostgreSQL · Prisma · Redis · BullMQ 
 - Designed for high-volume global use
 
 #### DashPilot Architecture
@@ -65,7 +87,7 @@ flowchart TB
 
 ## 🧠 Tech Arsenal
 <p align="left"> 
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,express,nodejs,react,postgres,redis,docker,prisma,git,vercel" /> 
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,express,nodejs,react,postgres,redis,docker,prisma,git,cloudflare,vercel,openai,claude,ollama" /> 
 </p>
 
 ### Strong Focus Areas
@@ -118,12 +140,12 @@ flowchart TB
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-meric.karpat%40icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meric.karpat@icloud.com)
+[![Email](https://img.shields.io/badge/E-mail-meric.karpat%40icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meric.karpat@icloud.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/meric-karpat)
 [![Location](https://img.shields.io/badge/Location-Izmir%2C%20Turkey-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Izmir)
 
 ### Open to:
-🤝 Technical co-founders for AI/SaaS projects  
+🤝 Technical co-founders for AI/SaaS projects    
 💼 Contract work or colloquia on complex backend systems  
 🎙️ Speaking about SaaS architecture & AI integration  
 ☕ Coffee chats about startup ideas
