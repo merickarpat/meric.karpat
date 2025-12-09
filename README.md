@@ -43,8 +43,10 @@ A full commercial analytics platform for Amazon sellers:
 - Insight engine, predictive scoring & dashboards  
 - PostgreSQL · Prisma · Redis · BullMQ 
 - Designed for high-volume global use
-
+  
 </td>
+</tr>
+</table>
   
 #### DashPilot Architecture
 ```mermaid
@@ -88,6 +90,8 @@ const incidentCortex = {
 - Express + TypeScript + Neon + Drizzle ORM
 
 </td>
+</tr>
+</table>
   
 #### Incident Cortex Architecture
 ```mermaid
@@ -106,7 +110,7 @@ flowchart TB
 
 ## 🧠 Tech Arsenal
 <p align="left"> 
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,express,nodejs,react,postgres,redis,docker,prisma,git,cloudflare,vercel,openai,claude,ollama" /> 
+  <img src="https://skillicons.dev/icons?i=vscode,ts,nextjs,express,nodejs,react,postgres,redis,docker,prisma,git,cloudflare,vercel" /> 
 </p>
 
 ### Strong Focus Areas
