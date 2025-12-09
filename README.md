@@ -31,7 +31,7 @@ flowchart LR
   A[Keepa CSV / Excel Upload] --> B[Ingestion & Parsing]
   B --> C[(PostgreSQL)]
   C --> D[Job Queue / Workers]
-  D --> E[AI Engines (OpenAI & Abacus)]
+  D --> E[AI Engines (OpenAI & Ollama)]
   E --> F[Product Insights & Scores]
   F --> G[Next.js Dashboard]
   C --> H[Analytics & Reports]
@@ -51,14 +51,15 @@ flowchart LR
 #### Incident Cortex Architecture
 ```mermaid
 flowchart LR
-  A[Slack Events / Commands] --> B[Express API & Slack Controller]
+  A[Slack Events and Commands] --> B[Express API and Slack Controller]
   B --> C[Runbook Service]
-  C --> D[(NeonDB + pgvector)]
+  C --> D[(NeonDB with pgvector)]
   C --> G[Background Workers]
   G --> H[OpenAI Embeddings]
-  H --> D
-  D --> E[Semantic Search (Top-k results)]
-  E --> F[Slack Response]
+  H --> X[ ]
+  X --> D
+  D --> E[Semantic Search Service]
+  E --> F[Slack Response Message]
 ```
 ---
 
@@ -73,31 +74,6 @@ flowchart LR
 - **AI & LLM integration (RAG, embeddings, semantic search)**
 - **SaaS platform design (auth, billing, usage metering)**
 - **PostgreSQL performance, schema design & migrations**
-
----
-
-## 📈 GitHub Activity
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=merickarpat&theme=react-dark&hide_border=true&area=true" />
-</p>
-
----
-
-## 📫 Let's Build Something
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-meric.karpat%40icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meric.karpat@icloud.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/meric-karpat)
-[![Location](https://img.shields.io/badge/Location-Izmir%2C%20Turkey-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Izmir)
-
-### Open to:
-🤝 Technical co-founders for AI/SaaS projects  
-💼 Contract work  on complex backend systems  
-🎙️ Speaking about SaaS architecture & AI integration  
-☕ Coffee chats about startup ideas
-
-</div>
 
 ---
 
@@ -121,7 +97,7 @@ flowchart LR
 
 <div align="center">
 
-***"Ship fast, iterate faster, never stop learning."***
+##"Ship fast, iterate faster, never stop learning."##
 
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
