@@ -1,5 +1,5 @@
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&width=600&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
 
 <!-- INTRO -->
 <p align="center"> 
@@ -19,8 +19,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top" align="left">
-  
+<td width="50%" valign="top">
 ```typescript
 const dashpilot = {
   problem: "Amazon sellers drowning in data",
@@ -37,14 +36,10 @@ const dashpilot = {
 ```
 
 </td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%" valign="top" align="right">
+<td width="50%" valign="top">
   
 **What makes it special:**
+
 A full commercial analytics platform for Amazon sellers:
 
 - Keepa CSV/Excel ingestion & transformation  
@@ -76,8 +71,7 @@ flowchart TB
 
 <table>
 <tr>
-<td width="50%" valign="top" align="left">
-
+<td width="50%" valign="top">
 ```typescript
 const incidentCortex = {
   problem: "Engineers wasting time searching docs",
@@ -92,14 +86,14 @@ const incidentCortex = {
   status: "Production-ready backend"
 }
 ```
-</td>
-</tr>
-</table>
 
-<table>
-<tr>
-<td width="50%" valign="top" align="right">
-- An AI-first backend built to reduce MTTR by giving engineers instant answers:
+</td>
+<td width="50%" valign="top">
+
+**What makes it special:**
+
+An AI-first backend built to reduce MTTR by giving engineers instant answers:
+
 - Semantic search over runbooks (pgvector)
 - Automatic embedding pipeline
 - Slack slash commands & interactive workflows
@@ -117,11 +111,11 @@ flowchart TB
   C --> D[(NeonDB with pgvector)]
   C --> G[Background Workers]
   G --> H[OpenAI Embeddings]
-  H --> X[ ]
-  X --> D
+  H --> D
   D --> E[Semantic Search Service]
   E --> F[Slack Response Message]
 ```
+
 ---
 
 ## 🧠 Tech Arsenal
@@ -200,5 +194,6 @@ flowchart TB
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
 </div> <!-- FOOTER --> 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:1a1b27&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=150&section=footer" />
+
 
