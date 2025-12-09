@@ -20,6 +20,7 @@
 <table>
 <tr>
 <td width="50%" valign="top">
+  
 ```typescript
 const dashpilot = {
   problem: "Amazon sellers drowning in data",
@@ -72,6 +73,7 @@ flowchart TB
 <table>
 <tr>
 <td width="50%" valign="top">
+  
 ```typescript
 const incidentCortex = {
   problem: "Engineers wasting time searching docs",
