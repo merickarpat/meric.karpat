@@ -1,5 +1,7 @@
+<div align="center">
 <!-- HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=200&section=header&text=Meriç%20Karpat&fontSize=48&fontColor=ffffff&animation=twinkling" />
+</div> 
 
 <!-- INTRO -->
 <p align="center"> 
@@ -44,7 +46,6 @@ const dashpilot = {
 A full commercial analytics platform for Amazon sellers:
 
 - Keepa CSV/Excel ingestion & transformation  
-- Token-based AI analysis and product scoring (OpenAI / Claude / Ollama)  
 - Insight engine, predictive scoring & dashboards  
 - PostgreSQL · Prisma · Redis · BullMQ 
 - Designed for high-volume global use
@@ -53,7 +54,10 @@ A full commercial analytics platform for Amazon sellers:
 </tr>
 </table>
   
-#### DashPilot Architecture
+
+<h2 align="center">⏬DashPilot Architecture⏬</h2>
+
+
 ```mermaid
 flowchart TB
   A[Keepa CSV / Excel Upload] --> B[Ingestion & Parsing]
@@ -105,7 +109,8 @@ An AI-first backend built to reduce MTTR by giving engineers instant answers:
 </tr>
 </table>
   
-#### Incident Cortex Architecture
+<h2 align="center">⏬Incident Cortex Architecture⏬</h2>
+
 ```mermaid
 flowchart TB
   A[Slack Events and Commands] --> B[Express API and Slack Controller]
@@ -175,7 +180,7 @@ flowchart TB
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/E-mail-meric.karpat%40icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meric.karpat@icloud.com)
+[![Email](https://img.shields.io/badge/Email-meric.karpat%40icloud.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:meric.karpat@icloud.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/meric-karpat)
 [![Location](https://img.shields.io/badge/Location-Izmir%2C%20Turkey-00ADD8?style=for-the-badge&logo=google-maps&logoColor=white)](https://www.google.com/maps/place/Izmir)
 
@@ -196,6 +201,5 @@ flowchart TB
 ⭐ If you find my work interesting, feel free to contact me or star my public repos!
 
 </div> <!-- FOOTER --> 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=150&section=footer" />
-
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:25bfff,100:9600ff&height=150&section=footer" />
 
